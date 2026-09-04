@@ -22,7 +22,6 @@ n, k = map(int, input().split())
 sum = 0
 mult = 1
 while n > 0:
-    
     sum = sum + n % k
     mult = mult * (n % k)
     n = n // k
